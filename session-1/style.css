@@ -1,0 +1,259 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px dashed gray;
+    height: 50px;
+    padding: 5px;
+}
+
+.search-bar {
+    border: 1.5px dashed darkolivegreen;
+    margin-top: 20px;
+    width: 40%;
+    height: 80%;
+}
+
+.navbar-icon-cluster {
+    border: 1px dashed darkgreen;
+}
+
+.navbar-icon {
+    border: 1px solid royalblue;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+.main-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.middle-area {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 45%;
+    padding-top: 10px;
+}
+
+.stories-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed blue;
+    height: 250px;
+    gap: 10px;
+}
+
+.stories-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.stories, .reels {
+    border: 1.5px dashed blueviolet;
+    padding: 1rem;
+    width:100%;
+}
+
+.story-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    height: 100%;
+}
+
+.story-card {
+    position: relative;
+    border: 1px dotted darkolivegreen;
+    height: 85%;
+    width: 15%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.story-card-name {
+    position: absolute;
+    top: 120px;
+    border: 1px dashed palevioletred;
+}
+
+.create-post-container {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    border: 1px dotted green;
+    width: 97.3%;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    gap: 10px;
+}
+.create-post-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height:80%;
+}
+
+.create-post-functions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input[type=text]{
+    width: 95%;
+    height: 100%;
+    margin-left: 10;
+    border-radius: 10px;
+}
+
+.create-post-field {
+    border: 1.5px dotted chocolate;
+    width: 90%;
+}
+.post-feed {
+    height: 100%;
+}
+.post-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted goldenrod;
+    height: 95%;
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+
+.post-details {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.user-details {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: start;
+}
+
+.post-options {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.icon {
+    border: 1px solid royalblue;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+
+.post-content {
+    display: flex;
+    justify-content: center;
+}
+
+#post-photo {
+    border: 1.5px dotted goldenrod;
+    height: 250px;
+    width: 100%;
+}
+
+.post-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-functions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.post-button, .create-post-button {
+    border: 1.5px dashed blueviolet;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.create-post-button {
+    border: 2px dashed blueviolet;
+    width: 20%;
+    height: 100%;
+}
+
+.comments-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.comment-stack {
+    /* border: 1px solid gold;
+    border-radius: 10px; */
+}
+
+.comment-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.5rem 0.1rem 0px 0.5rem;
+}
+
+.comment-functions {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin: 0.5rem 0px 0.5rem 0px;
+}
+
+.left-side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px dashed red;
+    width: 25%;
+    height: 123%;
+}
+
+.sidebar-section {
+    margin: 10px;
+    border: 2px dotted forestgreen;
+}
+
+
+.right-side-bar {
+    border: 1px dashed red;
+    width: 25%;
+    height: 123%;
+}
+
+
+.boxed-text, .no-padding-text{
+    display: flex;
+    border: 1px dashed black;
+    padding: 0px 5px 20px 5px;
+}
+
+.no-padding-text {
+    padding: 5px;
+}
